@@ -1,0 +1,17 @@
+{
+  "name": "ts-bounded-skiplist",
+  "version": "0.1.0",
+  "description": "An ordered set backed by a skiplist whose node heights are capped at a fixed maximum level.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": "./src/index.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [],
+  "license": "BSD-3-Clause",
+  "dependencies": {}
+}
